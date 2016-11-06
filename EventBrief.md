@@ -10,3 +10,23 @@ Kubernetes is a platform to build distributed systems. This is how it works:
  * SScheduler schedules pods
  * Kublet sees pod scheduled to it and tells docker to run the container.
  * Docker pulls and runs the container.
+ 
+ 
+### Rajat on ChatOps:
+Architecture diagram for ChetOps is as follows:
+ 
+ChatOps Features:
+ * On demand infra provision
+ * APIs monitoring
+ * Deployments to Cloud / Local Data Center
+ * Alert Notification over Email and Chat
+ * Instance Details
+ 
+ 
+### Madhu Akula on Infrastructure Security Monitoring:
+Madhu discussed about the need to monitoring and how we can make our infrastructure more secure by following simple approaches. Madhu uses Logstash, ElasticSearch and Kibana as full stack monitoring tools. [Tick Stack](https://www.influxdata.com/time-series-platform/) and [GrayLog](https://www.graylog.org/) can be used as full stack ulternatives for monitoring. 
+
+Guidelines for Security shared by Madhu:
+
+
+ 
