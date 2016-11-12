@@ -108,5 +108,5 @@ Because of endless motivations like "maturity of server automation tools(chef, a
  * Analytics
  
  ![alt](https://github.com/manish-devops/DevOps-Days-2016/blob/master/Diagrams/DevOps-networking-Roadmap/DevopsNetworkingRoadmap.jpg)
- ![alt](https://github.com/manish-devops/DevOps-Days-2016/blob/master/Diagrams/DevOps-networking-Roadmap/Ecosystem.jpg)
+ ![alt](https://github.com/manish-devops/DevOps-Days-2016/blob/master/Diagrams/DevOps-networking-Roadmap/DevopsNetworkingEcosystem.jpg)
 
