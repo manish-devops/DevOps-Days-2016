@@ -84,3 +84,8 @@ Kubernetes helped SaltSide to boost their processes. This is how they are using 
    * Prefer one DockerFile per project
    * Prefer official docker images over internally maintained base images.
   
+  
+#### Lightening talks by various speakers
+
+* Kitchen can be used as effective continuous integration tool for Chef cookbook development:
+![alt](https://github.com/manish-devops/DevOps-Days-2016/blob/master/Diagrams/CI-for-Cookbooks/CI.jpg)
