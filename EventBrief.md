@@ -89,3 +89,24 @@ Kubernetes helped SaltSide to boost their processes. This is how they are using 
 
 * Kitchen can be used as effective continuous integration tool for Chef cookbook development:
 ![alt](https://github.com/manish-devops/DevOps-Days-2016/blob/master/Diagrams/CI-for-Cookbooks/CI.jpg)
+
+
+##### Devops in Networks:
+
+Because of endless motivations like "maturity of server automation tools(chef, ansible, puppet), availability of routers for modelling, white box switches, opensource projects in Network space, container networking demanding simplicity" it is becomming very important for networking to have a devops culture. There can be multiple use cases for this.
+
+* Configuration use cases
+ * Network wide routing protocols
+ * Configuring services like firewall and load-balancer
+ * Declaring configuration rather than imperative
+ 
+* Monitoring use cases:
+ * Check cable mismatch
+ * Inventory checking
+ * Performance Monitoring
+ * Check for error counters and thresholds
+ * Analytics
+ 
+ ![alt](https://github.com/manish-devops/DevOps-Days-2016/blob/master/Diagrams/DevOps-networking-Roadmap/DevopsNetworkingRoadmap.jpg)
+ ![alt](https://github.com/manish-devops/DevOps-Days-2016/blob/master/Diagrams/DevOps-networking-Roadmap/Ecosystem.jpg)
+
