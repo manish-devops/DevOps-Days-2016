@@ -43,5 +43,44 @@ Guidelines for Security shared by Madhu:
 * Use SSL certificates and enable HTTPS for ElasticSearch, Lagstash and Kibana (Eg. Lets encrypt)
 * Use search guard for granular permissions and role based authentication for ELK(Shield is an alternative)
 
+### Adam on SaltSide Journey
+Adam talked about SaltStack journey, He discussed how slow their process was before few years and how they improved over the period of time. He lead us through the journey by sharing his learnings. Docker was his main discussion topic. The reason for chosing Docker was:
+* To give engineers the freedom to choose best tool stack
+* Infrastructure standardization.
+* Dev and production parity
 
+He then talked about his journey in SaltSide. He mentioned what they didn't have in 2014 and where they are right now.
+
+* **On 2014:**
+ * Mature container orchestration tool was not available.
+ There were no official images for O.S.
+ * Best practices were yet to be established
  
+* **Kubernetes:**
+Kubernetes helped SaltSide to boost their processes. This is how they are using it:
+ * One cluster per region; multiple markets per cluster.
+ * Decreased cost
+ * Increase reliability
+ * Move to maintained and active open-source project instead of end-of-life'd private internal tools
+ * Increase velocity
+
+
+ In their journey towards success, they faced multiple issues:
+  * They can't cop up with everyday changing technology by their home grown tool Appolo. This becomes very slow and expensive in long run.
+  * How to give client developers a functioning API platform to develop against?
+  * How to give QA access to N number of service configurations?
+  * How to give engineers a place to experiment outside production?
+  * How to save everyone from configuring multiple services?
+  
+  These are the take aways from Adam's discussion:
+   * Prefer Kubernetes/Mesos/DCOS instead rolling out your own solution
+   * Prefer docker compose over manual docker commands
+   * Google container Engine is the easiest way to get production ready container infrastructure.
+   * Package up your distributed application instead of Engineer manage it themselves.
+   * Include log and matrics system
+   * Create development APIs instead of CLIs.
+   * Distribute internal tools as docker image.
+   * Prefer containerized workflow over host level dependencies.
+   * Prefer one DockerFile per project
+   * Prefer official docker images over internally maintained base images.
+  
